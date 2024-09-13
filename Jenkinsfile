@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REPOSITORY_URL = 'https://github.com/YourUsername/your-springboot-app'
+        REPOSITORY_URL = 'https://github.com/Krish90s/product-service-springboot.git'
         DOCKER_IMAGE = 'your-springboot-app'
         CONTAINER_NAME = 'springbootapp'
         EC2_IP = '3.110.114.23'
